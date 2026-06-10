@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreejith S | 3D Island Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-card">
+      <div class="loader-icon">🏝️</div>
+      <h1>Loading Sreejith Island...</h1>
+      <p>Building 3D portfolio world</p>
+    </div>
+  </div>
+
+  <div id="topBar">
+    <div>
+      <strong>Sreejith S</strong>
+      <span>3D Island Portfolio</span>
+    </div>
+    <button id="nightBtn">🌙 Night</button>
+  </div>
+
+  <div id="hint">
+    🖱️ Drag to rotate • Scroll to zoom • Click objects
+  </div>
+
+  <canvas id="bg"></canvas>
+
+  <section id="panel">
+    <button id="closeBtn">×</button>
+    <h2 id="panelTitle">Welcome</h2>
+    <div id="panelContent"></div>
+  </section>
+
+  <div id="imageModal">
+    <button id="modalClose">×</button>
+    <img id="modalImage" alt="Certificate preview">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/portfolioData.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
