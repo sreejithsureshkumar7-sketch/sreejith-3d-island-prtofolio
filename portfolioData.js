@@ -7,7 +7,7 @@ const portfolioData = {
     location: "Chennai",
     goal: "Web Developer and UI/UX Designer",
     intro: "Aspiring Web Developer and UI/UX Designer passionate about creating modern web applications, interactive experiences, and user-friendly digital products.",
-    photo: "assets/images/profile/profile.jpg"
+    photo: "profile.jpg"
   },
   skills: [
     "HTML", "CSS", "JavaScript", "React", "UI/UX Design", "Node.js",
@@ -34,16 +34,16 @@ const portfolioData = {
     {name:"Subway Surfers Game", github:"https://sreejithsureshkumar7-sketch.github.io/Subway-surfers/", live:"https://sreejithsureshkumar7-sketch.github.io/Subway-surfers-game-model/"}
   ],
   certificates: [
-    {title:"InternPe UI/UX Internship", img:"assets/images/certificates/internpe-uiux-internship.png"},
-    {title:"NoviTech Data Analytics MasterClass", img:"assets/images/certificates/novitech-data-analytics.jpg"},
-    {title:"NoviTech UI/UX Design MasterClass", img:"assets/images/certificates/novitech-uiux-design.jpg"},
-    {title:"LiveWire Power BI Workshop", img:"assets/images/certificates/livewire-powerbi.jpg"},
-    {title:"Skillified Mentor Professional Exposure", img:"assets/images/certificates/skillified-professional-exposure.jpg"},
-    {title:"ThinkNEXT Latest Trends in Industry", img:"assets/images/certificates/thinknext-industry-trends.png"},
-    {title:"NoviTech Road Map to Become Data Analyst", img:"assets/images/certificates/novitech-data-analyst-roadmap.jpg"},
-    {title:"NoviTech Cyber Attacks Workshop", img:"assets/images/certificates/novitech-cyber-attacks.jpg"},
-    {title:"NoviTech Full Stack Development", img:"assets/images/certificates/novitech-fullstack.jpg"},
-    {title:"Boston Institute Cyber Security Master Class", img:"assets/images/certificates/bia-cyber-security.jpg"}
+    {title:"InternPe UI/UX Internship", img:"internpe-uiux-internship.png"},
+    {title:"NoviTech Data Analytics MasterClass", img:"novitech-data-analytics.jpg"},
+    {title:"NoviTech UI/UX Design MasterClass", img:"novitech-uiux-design.jpg"},
+    {title:"LiveWire Power BI Workshop", img:"livewire-powerbi.jpg"},
+    {title:"Skillified Mentor Professional Exposure", img:"skillified-professional-exposure.jpg"},
+    {title:"ThinkNEXT Latest Trends in Industry", img:"thinknext-industry-trends.png"},
+    {title:"NoviTech Road Map to Become Data Analyst", img:"novitech-data-analyst-roadmap.jpg"},
+    {title:"NoviTech Cyber Attacks Workshop", img:"novitech-cyber-attacks.jpg"},
+    {title:"NoviTech Full Stack Development", img:"novitech-fullstack.jpg"},
+    {title:"Boston Institute Cyber Security Master Class", img:"bia-cyber-security.jpg"}
   ],
   contact: {
     email: "sreejithsureshkumar7@gmail.com",
