@@ -259,9 +259,9 @@ function openSection(type){
     <p>${portfolioData.about.intro}</p>
   `);
 
- if(type==="skills") return showPanel("🌴 Skills Forest", 
-  <div class="badges">${portfolioData.skills.map(s=>  <span class="badge">${s}</span>).join("")}</div>
- ' );
+  if(type==="skills") return showPanel("🌴 Skills Forest", `
+    <div class="badges">${portfolioData.skills.map(s=>`<span class="badge">${s}</span>`).join("")}</div>
+  `);
 
   if(type==="projects") return showPanel("💻 Project Lab", portfolioData.projects.map(p=>`
     <div class="card"><h3>${p.name}</h3>
