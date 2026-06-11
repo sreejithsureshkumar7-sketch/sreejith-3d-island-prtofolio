@@ -9,17 +9,9 @@ const portfolioData = {
     intro: "Aspiring Web Developer and UI/UX Designer passionate about creating modern web applications, interactive experiences, and user-friendly digital products.",
     photo: "profile.jpg"
   },
- skills: [
-  { name: "HTML", level: 95 },
-  { name: "CSS", level: 90 },
-  { name: "JavaScript", level: 85 },
-  { name: "React", level: 80 },
-  { name: "UI/UX Design", level: 90 },
-  { name: "Node.js", level: 75 },
-  { name: "Python", level: 80 },
-  { name: "Java", level: 70 },
-  { name: "C++", level: 70 },
-  { name: "C Programming", level: 75 }
+skills: [
+  "HTML", "CSS", "JavaScript", "React", "UI/UX Design", "Node.js",
+  "Python", "Java", "C++", "C Programming"
 ],
   projects: [
     {name:"QR Code Generator", github:"https://sreejithsureshkumar7-sketch.github.io/QR-code-generator/", live:"https://qr-code-generator-mu-ruddy.vercel.app"},
