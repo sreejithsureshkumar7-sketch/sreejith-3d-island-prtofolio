@@ -259,7 +259,7 @@ function openSection(type){
     <p>${portfolioData.about.intro}</p>
   `);
 
-  if(type==="skills") return showPanel("🌴 Skills Forest", '
+  if(type==="skills") return showPanel("🌴 Skills Forest", 
   <div class="skills-list">
     ${portfolioData.skills.map(s =>'
       <div class="card">
