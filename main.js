@@ -261,7 +261,7 @@ function openSection(type){
 
   if(type==="skills") return showPanel("🌴 Skills Forest", 
   <div class="skills-list">
-    ${portfolioData.skills.map(s=>
+    ${portfolioData.skills.map(s =>
       <div class="card">
         <strong>${s.name}</strong>
         <div class="bar">
