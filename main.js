@@ -259,18 +259,8 @@ function openSection(type){
     <p>${portfolioData.about.intro}</p>
   `);
 
-  if(type==="skills") return showPanel("🌴 Skills Forest", 
-  <div class="skills-list">
-    ${portfolioData.skills.map(s =>
-      <div class="card">
-        <strong>${s.name}</strong>
-        <div class="bar">
-          <div class="fill" style="width:${s.level}%"></div>
-        </div>
-        <small>${s.level}%</small>
-      </div>
-    ').join("")}
-  </div>
+ if(type==="skills") return showPanel("🌴 Skills Forest", 
+  <div class="badges">${portfolioData.skills.map(s=>'<span class="badge">${s}</span>).join("")}</div>
 ');
 
   if(type==="projects") return showPanel("💻 Project Lab", portfolioData.projects.map(p=>`
